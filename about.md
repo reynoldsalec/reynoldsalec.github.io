@@ -23,4 +23,4 @@ If you're interested in hearing more about something I talk about on this site o
 
 ## Credits
 
-The basis for this website was liberally borrowed from the [codebase](https://github.com/davidensinger/davidensinger.github.io) of [Alec Reynolds](http://reynoldsalec.github.io/), a Front End Developer from Columbus, OH. Big thanks to David and an invitation to all who are interested in using this Jekyll-powered site as a beginning for their own project.
+The basis for this website was liberally borrowed from the [codebase](https://github.com/davidensinger/davidensinger.github.io) of [David Ensinger](http://davidensinger.github.io/), a Front End Developer from Columbus, OH. Big thanks to David and an invitation to all who are interested in using this Jekyll-powered site as a beginning for their own project.
