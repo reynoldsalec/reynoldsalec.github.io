@@ -1,0 +1,85 @@
+// ==========================================================================
+// Primary
+// ==========================================================================
+
+.hentry {
+  @extend %clearfix;
+}
+
+.post {
+  @include rem(margin, 4.1 0 3);
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.entry-meta-header,
+.entry-meta-footer-bottom {
+  color: $link-meta-color;
+  a {
+    &:link,
+    &:visited {
+      color: inherit;
+    }
+    &:hover {
+      color: $link-meta-color-hover;
+    }
+    &:focus,
+    &:active {
+      color: $link-meta-color-focus;
+    }
+  }
+}
+
+.entry-meta-header {
+  @include rem(margin-bottom, 0.7);
+  font-weight: $base-font-weight-bold;
+}
+
+.entry-meta-icon {
+  @include rem(margin-left, 0.5);
+  &:first-child {
+    margin-left: 0;
+  }
+  &:before {
+    color: $icon-meta-color;
+  }
+  &:hover {
+    &:before {
+      color: $icon-meta-color-hover;
+    }
+  }
+}
+
+.entry-meta-link {
+  &:link,
+  &:visited {
+    color: $link-meta-color;
+  }
+  &:hover {
+    color: $link-meta-color-hover;
+  }
+  &:focus,
+  &:active {
+    color: $link-meta-color-focus;
+  }
+}
+
+.entry-content {
+  overflow: hidden;
+  @include rem(margin-bottom, 3);
+  >p {
+    &:first-child {
+      @extend %delta-font-size;
+    }
+  }
+}
+
+.continue-reading {
+  @include rem(margin-top, 0.75);
+  @extend %button-blue;
+  &:after {
+    content: "\2192";
+    @include rem(margin-left, 0.5);
+  }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title type="text" xml:lang="en">Development, design, and more by David Ensinger</title>
+  <link type="application/atom+xml" rel="self" href="http://davidensinger.com/atom.xml"/>
+  <link href="http://davidensinger.com/"/>
+  <id>http://davidensinger.com/</id>
+  <updated>2014-10-05T22:56:36Z</updated>
+  <author>
+    <name>David Ensinger</name>
+    <email>hello@davidensinger.com</email>
+  </author>
+  <rights type="text">Copyright © 2014 David Ensinger. All rights reserved.</rights>
+  
+
+</feed>
