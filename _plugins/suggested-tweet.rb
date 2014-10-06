@@ -3,10 +3,10 @@
 # A Liquid tag for Jekyll that allows for the embedding of suggested tweets,
 # via Twitter’s Web Intents API and @richhollis’s Twitter Web Intents Ruby Gem.
 #
-# Authors: David Ensinger and John Colvin
-# Site: http://davidensinger.com/ and http://2john4tv.biz/
+# Authors: Alec Reynolds and John Colvin
+# Site: http://reynoldsalec.github.io/ and http://2john4tv.biz/
 # Twitter: @DavidEnsinger and @2john4tv
-# Email: hello@davidensinger.com and 2john4tv@gmail.com
+# Email: hello@reynoldsalec.github.io and 2john4tv@gmail.com
 # Source: https://github.com/davidensinger/suggested-tweet
 #
 # Really John did all the Ruby work. I just bought him pizza and told him what I wanted :)
@@ -23,7 +23,7 @@
 # are optional.
 #
 #   suggested_tweet:
-#     url:                  'http://davidensinger.com/'
+#     url:                  'http://reynoldsalec.github.io/'
 #     via:                  'davidensinger'
 #     text:                 'Hello world'
 #     in_reply_to:          331434728957833218
@@ -34,7 +34,7 @@
 #   {% suggested_tweet %}
 #
 # Output:
-#   https://twitter.com/intent/tweet?hashtags=Jekyll,Twitter&in_reply_to=331434728957833218&related=davidensinger,richhollis,2john4tv&text=Hello+world&url=http%3A%2F%2Fdavidensinger.com&via=davidensinger
+#   https://twitter.com/intent/tweet?hashtags=Jekyll,Twitter&in_reply_to=331434728957833218&related=davidensinger,richhollis,2john4tv&text=Hello+world&url=http%3A%2F%2Freynoldsalec.github.io&via=davidensinger
 #
 # Liquid Output for Parameters (with the text parameter as an example):
 #    _config.yml: {{ site.suggested_tweet.text }}
