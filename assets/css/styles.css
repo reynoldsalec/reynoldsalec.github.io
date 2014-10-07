@@ -179,7 +179,7 @@ html {
 
 body {
   min-height: 100%;
-  background: url("../img/background.png");
+  background: url("../img/background-scaled.png") repeat-y;
   background-size: contain; }
 
 p, ul,
@@ -1055,6 +1055,8 @@ textarea {
 
 .site-logo {
   color: #2ecc71;
+  height: 150px;
+  width: 150px;
   float: left;
   margin-right: 32px;
   margin-right: 2rem;

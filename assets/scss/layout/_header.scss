@@ -8,6 +8,8 @@
 
 .site-logo {
   color: $green;
+  height: 150px;
+  width: 150px;
   float: left;
   @include rem(margin-right, 2);
   -webkit-animation-fill-mode: both;
