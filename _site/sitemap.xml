@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/2014/10/data-journalism/</loc>
+      
+        <lastmod>2014-10-08T15:55:00-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
   
     
   
@@ -8,7 +23,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/about/</loc>
       
-        <lastmod>2014-10-06T21:43:57-07:00</lastmod>
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -25,7 +40,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/</loc>
       
-        <lastmod>2014-10-06T21:43:57-07:00</lastmod>
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -36,6 +51,81 @@
     </url>
     
   
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/data/</loc>
+      
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/journalism/</loc>
+      
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/technology/</loc>
+      
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/Twitter/</loc>
+      
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/data-visualization/</loc>
+      
+        <lastmod>2014-10-08T22:32:17-07:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
     
   
 </urlset>

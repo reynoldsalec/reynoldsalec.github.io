@@ -4,12 +4,39 @@
   <link type="application/atom+xml" rel="self" href="http://reynoldsalec.github.io/atom.xml"/>
   <link href="http://reynoldsalec.github.io/"/>
   <id>http://reynoldsalec.github.io/</id>
-  <updated>2014-10-06T21:43:57Z</updated>
+  <updated>2014-10-08T22:32:17Z</updated>
   <author>
     <name>Alec Reynolds</name>
     <email>hello@reynoldsalec.github.io</email>
   </author>
   <rights type="text">Copyright © 2014 Alec Reynolds. All rights reserved.</rights>
   
+  <entry>
+  <title type="text">Data Journalism: Riots, Fires, and Spreadsheets</title>
+  <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2014/10/data-journalism/" />
+  <id>http://reynoldsalec.github.io/2014/10/data-journalism</id>
+  <published>2014-10-08T15:55:00Z</published>
+  <updated>2014-10-08T15:55:00Z</updated>
+  <content type="html"><![CDATA[ <p>It&rsquo;s amazing to some of us in the software engineering trade, but outside our perfect world of relational, non-relational, and completely anti-social databases (I&rsquo;ve met a few old MSSQL databases that WILL bite), the rest of humanity persists in thinking that the spreadsheet is a useful way of structuring data.</p>
+
+<p>Case in point: tonight I had the privilige of watching Simon Roger&rsquo;s, a pioneering &ldquo;data journalist&rdquo;, who came to prominence divining stories out of data for the Guardian and now makes his living at the Ur-source of data, Twitter. Throughout his presentation, he showed delightfully simple yet powerful and dynamic presentations of data. It was the kind of presentation that illicits audible &ldquo;ooos&rdquo; and &ldquo;awws&rdquo; from the audience, a great demonstration of the story-telling power of what was formerly just associated sets of numbers, text, and geolocation data. Here&rsquo;s Simon&rsquo;s process:</p>
+
+<p><img src="/assets/img/posts/guardian-data-workflow-001.jpg" alt="The Guardian's Data Workflow" /></p>
+
+<p>Notice step 2, &ldquo;Spreadsheet&rdquo;. That&rsquo;s where the action happens, where everything comes together. In the aftermath of the London riots, Simon helped the Guardian collect data from metropolitan courts. At first, the courts refused to release the data, but after an edict from the national government, complied with reems of data in physical documents, PDFs, cuneiform tablets, etc. How did the Guardian team turn this into data? In Simon&rsquo;s words, &ldquo;in the age old method of bringing in interns&rdquo; to move all the data into spreadsheets.</p>
+
+<p>Interns. And. Spreadsheets. This is something everyone who has worked in an office for the last twenty years can understand, but a fact that consultants like myself can easily forget. We view the CSV as an &ldquo;export&rdquo;, something to be quickly discarded as a secondary product of our perfect data systems, the offal of our CMS. However, for most the world, this is the most accessible format for editing and organizing data.</p>
+
+<p>Why this discrepancy? For many technical advisors, we have a bias against human sorted data. We&rsquo;ve seen too many spreadsheets filled with values that could easily be standardized (&ldquo;US&rdquo;. United States". &ldquo;United States   &rdquo;.). We hate how long it takes to load and parse them. We want complex relationships that are not as easily represented.</p>
+
+<p>It&rsquo;s time to discard (some of) this wariness in favor of a more pragmatic view. For small and even medium-sized software projects, many users can be well-served by a simple spreadsheet. Many of us need to look at Google Forms as a model for usability before we start thinking of complex interfaces to interact with data in a Hadoop cluster.</p>
+ <br>
+<hr>
+<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/10/data-journalism/">Data Journalism: Riots, Fires, and Spreadsheets</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Development, design, and more by Alec Reynolds</a></strong>.</p>
+<p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/DavidEnsinger">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
+ ]]></content>
+</entry>
+
+
 
 </feed>
