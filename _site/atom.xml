@@ -4,7 +4,7 @@
   <link type="application/atom+xml" rel="self" href="http://reynoldsalec.github.io/atom.xml"/>
   <link href="http://reynoldsalec.github.io/"/>
   <id>http://reynoldsalec.github.io/</id>
-  <updated>2014-10-08T22:32:17Z</updated>
+  <updated>2014-10-08T22:43:49Z</updated>
   <author>
     <name>Alec Reynolds</name>
     <email>hello@reynoldsalec.github.io</email>
@@ -29,7 +29,13 @@
 
 <p>Why this discrepancy? For many technical advisors, we have a bias against human sorted data. We&rsquo;ve seen too many spreadsheets filled with values that could easily be standardized (&ldquo;US&rdquo;. United States". &ldquo;United States   &rdquo;.). We hate how long it takes to load and parse them. We want complex relationships that are not as easily represented.</p>
 
-<p>It&rsquo;s time to discard (some of) this wariness in favor of a more pragmatic view. For small and even medium-sized software projects, many users can be well-served by a simple spreadsheet. Many of us need to look at Google Forms as a model for usability before we start thinking of complex interfaces to interact with data in a Hadoop cluster.</p>
+<p>It&rsquo;s time to discard (some of) this wariness in favor of a more pragmatic view. For small and even medium-sized software projects, many users can be well-served by a simple spreadsheet. Many of us need to look at Google Forms as a model for usability and accessbility, lest we fall into a trap of premature optimization. Some thoughts from around the web to meditate on:</p>
+
+<ul>
+<li><a href="https://davidmichaelross.com/blog/microsoft-excel-is-everywhere">Sorry, Geeks, Microsoft Excel is Everywhere</a>: Good brief history of spreadsheets, making the valid point that spreadsheets are basically &ldquo;Regular people using computers&hellip;sorta-kinda programming!&rdquo;</li>
+<li><a href="http://www.freeagent.com/central/spreadsheet-debate-why-i-hate-spreadsheets">The Great Spreadsheet Debate: Why I Hate Spreadsheets</a>: This is where all us technical folks are coming from. Sidenote, apparently this spreadsheet battle is something that FreeAgent is capitalizing on. I suspect this debate has probably been around since Lotus 123, which probably makes it older than I am.</li>
+</ul>
+
  <br>
 <hr>
 <p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/10/data-journalism/">Data Journalism: Riots, Fires, and Spreadsheets</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Development, design, and more by Alec Reynolds</a></strong>.</p>
