@@ -14,24 +14,8 @@ page-class: page-post
   <div class="entry-content">
     {{ content }}
   </div>
-  {% if page.tags != empty or page.suggested_tweet %}
+  {% if page.tags != empty %}
     <footer class="entry-meta entry-meta-footer">
-      {% if page.suggested_tweet %}
-        <div class="entry-meta-suggested-tweet">
-          <h3 class="suggested-tweet-title">Spread the Word</h3>
-          <a href="{% suggested_tweet %}" class="suggested-tweet-bubble">
-            {% if page.suggested_tweet.text != empty %}
-              <span class="suggested-tweet-text">{{ page.suggested_tweet.text }}</span>
-            {% endif %}
-            {% if page.suggested_tweet.hashtags != empty %}
-              {% for hashtag in page.suggested_tweet.hashtags %}
-                <span class="suggested-tweet-hashtag">#{{ hashtag }}</span>
-              {% endfor %}
-            {% endif %}
-          </a>
-          <p class="suggested-tweet-link"><a href="{% suggested_tweet %}" class="icon-left icon-twitter">Click to Tweet</a> <small>(you may edit before posting.)</small></p>
-        </div>
-      {% endif %}
       {% if page.tags != empty %}
       <div class="entry-meta-footer-bottom">
         {% if page.tags != empty %}
