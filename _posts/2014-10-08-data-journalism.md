@@ -13,7 +13,7 @@ suggested_tweet:
 
 It's amazing to some of us in the software engineering trade, but outside our perfect world of relational, non-relational, and completely anti-social databases (I've met a few old MSSQL databases that WILL bite), the rest of humanity persists in thinking that the spreadsheet is a useful way of structuring data.
 
-Case in point: tonight I had the privilige of watching Simon Roger's, a pioneering "data journalist", who came to prominence divining stories out of data for the Guardian and now makes his living at the Ur-source of data, Twitter. Throughout his presentation, he showed delightfully simple yet powerful and dynamic presentations of data. It was the kind of presentation that illicits audible "ooos" and "awws" from the audience, a great demonstration of the story-telling power of what was formerly just associated sets of numbers, text, and geolocation data. Here's Simon's process:
+Case in point: tonight I had the privilige of watching Simon Rogers, a pioneering "data journalist", who came to prominence divining stories out of data for the Guardian and now makes his living at the Ur-source of data, Twitter. Throughout his presentation, he showed delightfully simple yet powerful and dynamic presentations of data. It was the kind of presentation that illicits audible "ooos" and "awws" from the audience, a great demonstration of the story-telling power of what was formerly just associated sets of numbers, text, and geolocation data. Here's Simon's process:
 
 ![The Guardian's Data Workflow](/assets/img/posts/guardian-data-workflow-001.jpg)
 

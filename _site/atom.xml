@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title type="text" xml:lang="en">Development, design, and more by Alec Reynolds</title>
+  <title type="text" xml:lang="en">Living Better, Together</title>
   <link type="application/atom+xml" rel="self" href="http://reynoldsalec.github.io/atom.xml"/>
   <link href="http://reynoldsalec.github.io/"/>
   <id>http://reynoldsalec.github.io/</id>
-  <updated>2014-10-08T22:53:16Z</updated>
+  <updated>2014-10-21T22:51:39Z</updated>
   <author>
     <name>Alec Reynolds</name>
     <email>hello@reynoldsalec.github.io</email>
@@ -19,7 +19,7 @@
   <updated>2014-10-08T15:55:00Z</updated>
   <content type="html"><![CDATA[ <p>It&rsquo;s amazing to some of us in the software engineering trade, but outside our perfect world of relational, non-relational, and completely anti-social databases (I&rsquo;ve met a few old MSSQL databases that WILL bite), the rest of humanity persists in thinking that the spreadsheet is a useful way of structuring data.</p>
 
-<p>Case in point: tonight I had the privilige of watching Simon Roger&rsquo;s, a pioneering &ldquo;data journalist&rdquo;, who came to prominence divining stories out of data for the Guardian and now makes his living at the Ur-source of data, Twitter. Throughout his presentation, he showed delightfully simple yet powerful and dynamic presentations of data. It was the kind of presentation that illicits audible &ldquo;ooos&rdquo; and &ldquo;awws&rdquo; from the audience, a great demonstration of the story-telling power of what was formerly just associated sets of numbers, text, and geolocation data. Here&rsquo;s Simon&rsquo;s process:</p>
+<p>Case in point: tonight I had the privilige of watching Simon Rogers, a pioneering &ldquo;data journalist&rdquo;, who came to prominence divining stories out of data for the Guardian and now makes his living at the Ur-source of data, Twitter. Throughout his presentation, he showed delightfully simple yet powerful and dynamic presentations of data. It was the kind of presentation that illicits audible &ldquo;ooos&rdquo; and &ldquo;awws&rdquo; from the audience, a great demonstration of the story-telling power of what was formerly just associated sets of numbers, text, and geolocation data. Here&rsquo;s Simon&rsquo;s process:</p>
 
 <p><img src="/assets/img/posts/guardian-data-workflow-001.jpg" alt="The Guardian's Data Workflow" /></p>
 
@@ -38,7 +38,7 @@
 
  <br>
 <hr>
-<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/10/data-journalism/">Data Journalism: Riots, Fires, and Spreadsheets</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Development, design, and more by Alec Reynolds</a></strong>.</p>
+<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/10/data-journalism/">Data Journalism: Riots, Fires, and Spreadsheets</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Living Better, Together</a></strong>.</p>
 <p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/DavidEnsinger">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
  ]]></content>
 </entry>

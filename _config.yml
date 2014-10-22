@@ -7,10 +7,10 @@ highlighter: pygments
 permalink: /:year/:month/:title/
 paginate: 5
 
-title: Development, design, and more by Alec Reynolds
+title: Living Better, Together
 author: Alec Reynolds
 email: hello@reynoldsalec.github.io
-description: Alec Reynolds is a Front End Developer from Columbus, OH
+description: Alec Reynolds is a civic entrepreneur from Oakland, CA
 url: http://reynoldsalec.github.io
 
 exclude: ['config.json', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '*.scss']
@@ -18,4 +18,4 @@ exclude: ['config.json', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', '*.
 show_drafts: true
 
 suggested_tweet:
-  related: ['davidensinger']
+  related: ['reynoldsalec']
