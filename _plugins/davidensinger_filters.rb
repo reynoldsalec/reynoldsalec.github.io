@@ -1,6 +1,6 @@
-module DavidEnsingerFilters
+module ReynoldsAlecFilters
    def titlecase(input)
      input.titlecase
    end
 end
-Liquid::Template.register_filter DavidEnsingerFilters
+Liquid::Template.register_filter ReynoldsAlecFilters

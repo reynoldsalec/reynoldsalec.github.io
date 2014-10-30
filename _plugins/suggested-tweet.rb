@@ -5,9 +5,9 @@
 #
 # Authors: Alec Reynolds and John Colvin
 # Site: http://reynoldsalec.github.io/ and http://2john4tv.biz/
-# Twitter: @DavidEnsinger and @2john4tv
+# Twitter: @ReynoldsAlec and @2john4tv
 # Email: hello@reynoldsalec.github.io and 2john4tv@gmail.com
-# Source: https://github.com/davidensinger/suggested-tweet
+# Source: https://github.com/ReynoldsAlec/suggested-tweet
 #
 # Really John did all the Ruby work. I just bought him pizza and told him what I wanted :)
 #
@@ -24,17 +24,17 @@
 #
 #   suggested_tweet:
 #     url:                  'http://reynoldsalec.github.io/'
-#     via:                  'davidensinger'
+#     via:                  'ReynoldsAlec'
 #     text:                 'Hello world'
 #     in_reply_to:          331434728957833218
 #     hashtags:             ['Jekyll', 'Twitter']
-#     related:              ['davidensinger', 'richhollis', '2john4tv']
+#     related:              ['ReynoldsAlec', 'richhollis', '2john4tv']
 #
 # Usage:
 #   {% suggested_tweet %}
 #
 # Output:
-#   https://twitter.com/intent/tweet?hashtags=Jekyll,Twitter&in_reply_to=331434728957833218&related=davidensinger,richhollis,2john4tv&text=Hello+world&url=http%3A%2F%2Freynoldsalec.github.io&via=davidensinger
+#   https://twitter.com/intent/tweet?hashtags=Jekyll,Twitter&in_reply_to=331434728957833218&related=ReynoldsAlec,richhollis,2john4tv&text=Hello+world&url=http%3A%2F%2Freynoldsalec.github.io&via=ReynoldsAlec
 #
 # Liquid Output for Parameters (with the text parameter as an example):
 #    _config.yml: {{ site.suggested_tweet.text }}
