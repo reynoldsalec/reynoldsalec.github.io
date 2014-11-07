@@ -10,15 +10,15 @@
     <link href="//themes.googleusercontent.com" rel="dns-prefetch">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     
-      <title>Posts Tagged “technology” &ndash; Living Better, Together</title>
-      <meta content="Posts Tagged “technology” &ndash; Living Better, Together" property="og:title">
-      <meta content="Posts Tagged “technology” &ndash; Living Better, Together" name="twitter:title">
+      <title>BADCamp Notes and Happenings &ndash; Living Better, Together</title>
+      <meta content="BADCamp Notes and Happenings" property="og:title">
+      <meta content="BADCamp Notes and Happenings" name="twitter:title">
     
     <meta content="Living Better, Together" property="og:site_name">
     
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" property="og:description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="twitter:description">
+      <meta content="All the news from the Bay Area Drupal Camp 2014 that's fit to print." name="description">
+      <meta content="All the news from the Bay Area Drupal Camp 2014 that's fit to print." property="og:description">
+      <meta content="All the news from the Bay Area Drupal Camp 2014 that's fit to print." name="twitter:description">
     
 
     <meta content="Alec Reynolds" name="author">
@@ -49,20 +49,31 @@
 
     <link rel="shortcut icon" href="/favicon.ico" >
 
-    <link href="http://reynoldsalec.github.io/tag/technology/index.html" rel="canonical">
+    <link href="http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/" rel="canonical">
     
       <meta content="article" property="og:type">
     
     <meta content="summary" name="twitter:card">
     
-      <meta content="http://reynoldsalec.github.io/tag/technology/index.html" property="og:url">
-      <meta content="http://reynoldsalec.github.io/tag/technology/index.html" name="twitter:url">
+      <meta content="http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/" property="og:url">
+      <meta content="http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/" name="twitter:url">
     
+    
+      <meta content="2014-11-10T13:00:00-08:00" property="article:published_time">
+      <meta content="http://reynoldsalec.github.io/about/" property="article:author">
     
     
       <meta property="og:image" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
       <meta name="twitter:image:src" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
     
+    
+      
+      <meta property="article:tag" content="technology">
+      
+      <meta property="article:tag" content="Drupal">
+      
+      <meta property="article:tag" content="business">
+      
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600" rel="stylesheet" type="text/css">
     <link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
@@ -70,7 +81,7 @@
       <script src="/assets/js/html5shiv.js"></script>
     <![endif]-->
   </head>
-  <body class="">
+  <body class="page-post">
     <div class="outer-container">
       <div class="inner-container">
         <!--[if lt IE 9]><div class="chromeframe">
@@ -95,81 +106,66 @@
         </header>
         <div class="primary" id="content" role="main">
 
+<article class="post hentry">
+  <header class="entry-header">
+    <h1 class="entry-title">BADCamp Notes and Happenings</h1>
+    <div class="entry-meta entry-meta-header">
+      <span class="icon-left entry-meta-icon icon-entry-date">
+        <time class="date updated" datetime="2014-11-10T13:00:00-08:00">November 10, 2014</time>
+      </span>
+    </div>
+  </header>
+  <div class="entry-content">
+    <h2>Friday: Front-end Summit</h2>
 
-  
-  <div class="gray-box">
-    <p>Posts Tagged <strong>“technology”</strong></p>
+<p>This summit had a couch on the stage. Already a different tone set. Some cool things I learned:</p>
+
+<h3><a name="quail">Quail: Accessibility Testing</a></h3>
+
+<p>As speaker so elequontly put, &ldquo;we are all temporarily abled&rdquo;: everyone will have to deal with some variety of disability, and as I squinted to see all the way to the stage (damn computer monitor eyes!), it was easy for me to remember the importance of web accessibility.</p>
+
+<p>Quail is a jQuery plugin that helps make sure that accessbility standards (like the 50+ in WCAG 2.0) are fulfilled. For Drupal users, it&rsquo;s integrated into the <a href="https://www.drupal.org/project/accessibility">Accessibility</a> module. Although the speaker noted that Quail isn&rsquo;t quite production ready, it&rsquo;s a great starting point. Former Kalamunoid Steven Bassett made a very good comment that the verbosity of Quail means it can often encourage excessivly slavish accessibility implementations that can confuse people using screenreaders and others with reading disabilities.</p>
+
+<h3><a name="justafish">@justafish: Views, drupal_add_js, and other things that annoy her</a></h3>
+
+<p>hook_page_build() and the #attached attribute instead of drupal_add_js so you won&rsquo;t have JS added to non-HTML requests. I&rsquo;m kind of curious about this, particularly considering drupal_add_js <a href="https://api.drupal.org/api/drupal/core%21includes%21common.inc/function/_drupal_add_js/8">is being deprecated</a> in Drupal 8.</p>
+
+<p>She dislikes Views: writes custom code using Entity Field Queries to grab the entities you want to display, and then renders using Entity View Modes. HERESY! But very efficient heresy that doesn&rsquo;t leave a bunch of Features-generated code cruft that&rsquo;s impossible to QA in a diff. If you must use Views, justafish recommends using Entity View Modes to generate the individual pieces.</p>
+
+<h2>MORE NOTES TO FOLLOW.</h2>
+
+<p>I&rsquo;m traveling summit to summit, session to session, and will be updating this throughout the camp!</p>
+
   </div>
-
-
-
-  <article class="post">
-    <header class="entry-header">
-      <h1 class="entry-title">
-        <a href="/2014/11/badcamp-2014-friday/" rel="bookmark" title="Permalink to BADCamp Notes and Happenings">BADCamp Notes and Happenings</a>
-      </h1>
-      <div class="entry-meta entry-meta-header">
-        <span class="icon-left icon-entry-date entry-meta-icon">
-          <a class="entry-meta-link" href="/2014/11/badcamp-2014-friday/" rel="bookmark" title="2014-11-10 13:00:00 -0800">
-            <time class="date updated" datetime="2014-11-10T13:00:00-08:00">November 10, 2014</time>
-          </a>
-        </span>
-      </div>
-    </header>
-    <div class="entry-content">
+  
+    <footer class="entry-meta entry-meta-footer">
       
-        <p>All the news from the Bay Area Drupal Camp 2014 that&rsquo;s fit to print.</p>
-
-          <a class="continue-reading" href="/2014/11/badcamp-2014-friday/" rel="bookmark" title="Permalink to BADCamp Notes and Happenings">Continue Reading</a>
+      <div class="entry-meta-footer-bottom">
         
-    </div>
-  </article>
-
-  <article class="post">
-    <header class="entry-header">
-      <h1 class="entry-title">
-        <a href="/2014/10/verge-tourist/" rel="bookmark" title="Permalink to Businesses on the VERGE of Sustainability">Businesses on the VERGE of Sustainability</a>
-      </h1>
-      <div class="entry-meta entry-meta-header">
-        <span class="icon-left icon-entry-date entry-meta-icon">
-          <a class="entry-meta-link" href="/2014/10/verge-tourist/" rel="bookmark" title="2014-10-29 14:00:00 -0700">
-            <time class="date updated" datetime="2014-10-29T14:00:00-07:00">October 29, 2014</time>
-          </a>
-        </span>
+          <span class="icon-left entry-meta-icon icon-tag">
+            
+              <a class="nav-link-tag" href="/tag/technology" rel="tag">technology</a>, 
+            
+              <a class="nav-link-tag" href="/tag/drupal" rel="tag">Drupal</a>, 
+            
+              <a class="nav-link-tag" href="/tag/business" rel="tag">business</a>
+            
+          </span>
+        
       </div>
-    </header>
-    <div class="entry-content">
       
-        <p>Why you should consider attending a sustainable business conference.</p>
-
-          <a class="continue-reading" href="/2014/10/verge-tourist/" rel="bookmark" title="Permalink to Businesses on the VERGE of Sustainability">Continue Reading</a>
-        
+    </footer>
+  
+</article>
+<nav class="post-navigation" role="navigation">
+  <h1 class="visuallyhidden">Post navigation</h1>
+  
+    <div class="nav-previous">
+      <a class="nav-previous-link" href="http://reynoldsalec.github.io/2014/10/verge-tourist/" rel="prev">Businesses on the VERGE of Sustainability</a>
     </div>
-  </article>
-
-  <article class="post">
-    <header class="entry-header">
-      <h1 class="entry-title">
-        <a href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Data Journalism: Riots, Fires, and Spreadsheets</a>
-      </h1>
-      <div class="entry-meta entry-meta-header">
-        <span class="icon-left icon-entry-date entry-meta-icon">
-          <a class="entry-meta-link" href="/2014/10/data-journalism/" rel="bookmark" title="2014-10-08 15:55:00 -0700">
-            <time class="date updated" datetime="2014-10-08T15:55:00-07:00">October 08, 2014</time>
-          </a>
-        </span>
-      </div>
-    </header>
-    <div class="entry-content">
-      
-        <p>Why do tech advisors cringe when users prefer spreadsheets over our perfect data solutions?</p>
-
-          <a class="continue-reading" href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Continue Reading</a>
-        
-    </div>
-  </article>
-
-
+  
+  
+</nav>
         </div>
         <aside class="secondary vcard author" role="complementary">
           <img alt="Goofy picture of Alec eating a Pac Man" class="secondary-photo photo" src="/assets/img/alec-reynolds.jpg">

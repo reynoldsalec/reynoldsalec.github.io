@@ -4,13 +4,46 @@
   <link type="application/atom+xml" rel="self" href="http://reynoldsalec.github.io/atom.xml"/>
   <link href="http://reynoldsalec.github.io/"/>
   <id>http://reynoldsalec.github.io/</id>
-  <updated>2014-10-29T22:52:00Z</updated>
+  <updated>2014-11-07T11:53:05Z</updated>
   <author>
     <name>Alec Reynolds</name>
     <email>hello@reynoldsalec.github.io</email>
   </author>
   <rights type="text">Copyright © 2014 Alec Reynolds. All rights reserved.</rights>
   
+  <entry>
+  <title type="text">BADCamp Notes and Happenings</title>
+  <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/" />
+  <id>http://reynoldsalec.github.io/2014/11/badcamp-2014-friday</id>
+  <published>2014-11-10T13:00:00Z</published>
+  <updated>2014-11-10T13:00:00Z</updated>
+  <content type="html"><![CDATA[ <h2>Friday: Front-end Summit</h2>
+
+<p>This summit had a couch on the stage. Already a different tone set. Some cool things I learned:</p>
+
+<h3><a name="quail">Quail: Accessibility Testing</a></h3>
+
+<p>As speaker so elequontly put, &ldquo;we are all temporarily abled&rdquo;: everyone will have to deal with some variety of disability, and as I squinted to see all the way to the stage (damn computer monitor eyes!), it was easy for me to remember the importance of web accessibility.</p>
+
+<p>Quail is a jQuery plugin that helps make sure that accessbility standards (like the 50+ in WCAG 2.0) are fulfilled. For Drupal users, it&rsquo;s integrated into the <a href="https://www.drupal.org/project/accessibility">Accessibility</a> module. Although the speaker noted that Quail isn&rsquo;t quite production ready, it&rsquo;s a great starting point. Former Kalamunoid Steven Bassett made a very good comment that the verbosity of Quail means it can often encourage excessivly slavish accessibility implementations that can confuse people using screenreaders and others with reading disabilities.</p>
+
+<h3><a name="justafish">@justafish: Views, drupal_add_js, and other things that annoy her</a></h3>
+
+<p>hook_page_build() and the #attached attribute instead of drupal_add_js so you won&rsquo;t have JS added to non-HTML requests. I&rsquo;m kind of curious about this, particularly considering drupal_add_js <a href="https://api.drupal.org/api/drupal/core%21includes%21common.inc/function/_drupal_add_js/8">is being deprecated</a> in Drupal 8.</p>
+
+<p>She dislikes Views: writes custom code using Entity Field Queries to grab the entities you want to display, and then renders using Entity View Modes. HERESY! But very efficient heresy that doesn&rsquo;t leave a bunch of Features-generated code cruft that&rsquo;s impossible to QA in a diff. If you must use Views, justafish recommends using Entity View Modes to generate the individual pieces.</p>
+
+<h2>MORE NOTES TO FOLLOW.</h2>
+
+<p>I&rsquo;m traveling summit to summit, session to session, and will be updating this throughout the camp!</p>
+ <br>
+<hr>
+<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/">BADCamp Notes and Happenings</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Living Better, Together</a></strong>.</p>
+<p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/ReynoldsAlec">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
+ ]]></content>
+</entry>
+
+
   <entry>
   <title type="text">Businesses on the VERGE of Sustainability</title>
   <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2014/10/verge-tourist/" />
