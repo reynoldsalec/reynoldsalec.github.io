@@ -38,7 +38,7 @@ In any case, I'm missing some essentials to keep my records sounding sharp and f
 
 ## My Significant Other
 
-FYI, give me a heads up before picking up stuff in these categories; I'll remove it from the list so others don't get confused. And if you're [@sarahbranon](https://twitter.com/sarahbranon), issue a pull request to add more items :)
+If you're [@sarahbranon](https://twitter.com/sarahbranon), issue a pull request to add/remove items :)
 
 ### Bike Stuff
 
