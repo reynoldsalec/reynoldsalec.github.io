@@ -11,4 +11,6 @@
 
 -[Do a barrel roll!]()
 
--[Working f rom home](http://www.youtube.com/watch?v=co_DNpTMKXk)
+-[Working from home](http://www.youtube.com/watch?v=co_DNpTMKXk)
+
+-[Shia Labeouf Slow Clap](https://media.giphy.com/media/7rj2ZgttvgomY/giphy.gif)

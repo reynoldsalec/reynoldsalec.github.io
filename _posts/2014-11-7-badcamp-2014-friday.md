@@ -5,7 +5,7 @@ title: "BADCamp Notes and Happenings"
 description: "All the news from the Bay Area Drupal Camp 2014 that's fit to print."
 tags: [technology, Drupal, business]
 suggested_tweet:
-  url: 'http://alecreynolds.com/2014/10/11/badcamp-2014/'
+  url: 'http://alecreynolds.com/2014/11/7/badcamp-2014/'
   text: 'Irreverant Comments on #BADCamp 2014 by @reynoldsalec'
   hashtags: []
   related: []

@@ -3,6 +3,36 @@
   
     
     <url>
+      <loc>http://reynoldsalec.github.io/2014/12/christmas-list/</loc>
+      
+        <lastmod>2014-12-03T13:00:00-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/2014/11/2014-11-13-outsourcing-flash-boys/</loc>
+      
+        <lastmod>2014-11-13T13:00:00-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
       <loc>http://reynoldsalec.github.io/2014/11/badcamp-2014-friday/</loc>
       
         <lastmod>2014-11-10T13:00:00-08:00</lastmod>
@@ -53,7 +83,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/about/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -70,7 +100,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -87,7 +117,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/data/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -102,7 +132,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/journalism/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -117,7 +147,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/technology/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -132,7 +162,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/Twitter/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -147,7 +177,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/data-visualization/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -162,7 +192,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/sustainability/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -177,7 +207,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/environment/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -192,7 +222,7 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/business/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -207,7 +237,37 @@
     <url>
       <loc>http://reynoldsalec.github.io/tag/Drupal/</loc>
       
-        <lastmod>2014-11-07T11:53:05-08:00</lastmod>
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/Christmas/</loc>
+      
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://reynoldsalec.github.io/tag/products/</loc>
+      
+        <lastmod>2014-12-03T21:04:01-08:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
