@@ -2,7 +2,7 @@
 date: 2014-12-03 21:00:00
 layout: post
 title: "A Bad Materialist's Christmas List"
-description: "."
+description: "Never get around to writing a Christmas List? Use mine or my lovely SO's list to get some ideas or act as a surrogate."
 tags: [Christmas, products]
 suggested_tweet:
   url: 'http://alecreynolds.com/2014/12/03/badcamp-2014/'
