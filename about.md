@@ -10,7 +10,7 @@ sitemap:
 
 Greetings friend! My name is __Alec Reynolds__, an entrepreneurial developer who currently makes his dough as a co-founder at __[Kalamuna](http://www.kalamuna.com)__. I'm interested in finding ways that people can live better as individuals, together in society.
 
-Towards that end, I've invested my professional life thus far working with people in technology and sustainability. These include higher-education institutions like UC Berkeley, non-profits like the Center for Urban Education about Suistainble Agriculture, and mission-driven businesses like Greenbiz.
+Towards that end, I've invested my professional life thus far working with people in technology and sustainability. These include higher-education institutions like UC Berkeley, non-profits like the Center for Urban Education about Sustainable Agriculture, and mission-driven businesses like Greenbiz.
 
 To maximize my ability to contribute to these organizations, I founded Kalamuna with three of my trusted colleagues. Together we shared a dream of using the lessons we learn daily making websites for our clients to create __products__. Products are tools that allow us, a small group of talented people, to do exponentially more Good for our community than we could as individuals limited to our finite waking hours and pools of energy.
 
