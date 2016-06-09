@@ -19,3 +19,5 @@ show_drafts: true
 
 suggested_tweet:
   related: ['reynoldsalec']
+
+gems: ['jekyll-paginate']
