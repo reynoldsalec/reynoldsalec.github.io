@@ -10,15 +10,15 @@
     <link href="//themes.googleusercontent.com" rel="dns-prefetch">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     
-      <title>Posts Tagged “data visualization” &ndash; Living Better, Together</title>
-      <meta content="Posts Tagged “data visualization” &ndash; Living Better, Together" property="og:title">
-      <meta content="Posts Tagged “data visualization” &ndash; Living Better, Together" name="twitter:title">
+      <title>NodeJS on Linode &ndash; Living Better, Together</title>
+      <meta content="NodeJS on Linode" property="og:title">
+      <meta content="NodeJS on Linode" name="twitter:title">
     
     <meta content="Living Better, Together" property="og:site_name">
     
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" property="og:description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="twitter:description">
+      <meta content="Fast instructions on how to get a basic Node app running on Linode hosting." name="description">
+      <meta content="Fast instructions on how to get a basic Node app running on Linode hosting." property="og:description">
+      <meta content="Fast instructions on how to get a basic Node app running on Linode hosting." name="twitter:description">
     
 
     <meta content="Alec Reynolds" name="author">
@@ -49,20 +49,31 @@
 
     <link rel="shortcut icon" href="/favicon.ico" >
 
-    <link href="http://reynoldsalec.github.io/tag/data-visualization/" rel="canonical">
+    <link href="http://reynoldsalec.github.io/2016/03/nodejs-linode/" rel="canonical">
     
       <meta content="article" property="og:type">
     
     <meta content="summary" name="twitter:card">
     
-      <meta content="http://reynoldsalec.github.io/tag/data-visualization/" property="og:url">
-      <meta content="http://reynoldsalec.github.io/tag/data-visualization/" name="twitter:url">
+      <meta content="http://reynoldsalec.github.io/2016/03/nodejs-linode/" property="og:url">
+      <meta content="http://reynoldsalec.github.io/2016/03/nodejs-linode/" name="twitter:url">
     
+    
+      <meta content="2016-03-06T00:00:00-08:00" property="article:published_time">
+      <meta content="http://reynoldsalec.github.io/about/" property="article:author">
     
     
       <meta property="og:image" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
       <meta name="twitter:image:src" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
     
+    
+      
+      <meta property="article:tag" content="Linode">
+      
+      <meta property="article:tag" content="NodeJS">
+      
+      <meta property="article:tag" content="programming">
+      
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600" rel="stylesheet" type="text/css">
     <link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
@@ -95,37 +106,130 @@
         </header>
         <div class="primary" id="content" role="main">
 
-
-  
-  <div class="gray-box">
-    <p>Posts Tagged <strong>“data visualization”</strong></p>
-  </div>
-
-
-
-  <article class="post">
-    <header class="entry-header">
-      <h1 class="entry-title">
-        <a href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Data Journalism: Riots, Fires, and Spreadsheets</a>
-      </h1>
-      <div class="entry-meta entry-meta-header">
-        <span class="icon-left icon-entry-date entry-meta-icon">
-          <a class="entry-meta-link" href="/2014/10/data-journalism/" rel="bookmark" title="2014-10-08 15:55:00 -0700">
-            <time class="date updated" datetime="2014-10-08T15:55:00-07:00">October 08, 2014</time>
-          </a>
-        </span>
-      </div>
-    </header>
-    <div class="entry-content">
-      
-        <p>Why do tech advisors cringe when users prefer spreadsheets over our perfect data solutions?</p>
-
-          <a class="continue-reading" href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Continue Reading</a>
-        
+<article class="post hentry">
+  <header class="entry-header">
+    <h1 class="entry-title">NodeJS on Linode</h1>
+    <div class="entry-meta entry-meta-header">
+      <span class="icon-left entry-meta-icon icon-entry-date">
+        <time class="date updated" datetime="2016-03-06T00:00:00-08:00">March 06, 2016</time>
+      </span>
     </div>
-  </article>
+  </header>
+  <div class="entry-content">
+    <h2>Intro</h2>
+
+<p>Unite all the nodes!</p>
+
+<p>Linode provides inexpensive, reliable servers. If you want to &ldquo;set and forget&rdquo;
+a Node app (or multiple apps), Linode can be a good option. Although I&rsquo;ve since
+started using Docker Cloud for most of my microservice hosting needs, here&rsquo;s
+how I used to run Kalabox.io, the Kalabox API documentation, and our system
+dashboard on Linode:</p>
+
+<h2>Steps</h2>
+
+<p>1. Upload your Node app to your desired webroot on Linode</p>
+
+<pre><code>scp -r yourstuff user@IP:/path/to/webroot
+</code></pre>
+
+<p>Note that this assumes you either have your SSH key setup on your Linode server
+OR that you have your user&rsquo;s credentials handy.</p>
+
+<p>2. Install Node on linode</p>
+
+<pre><code>cd ~
+wget [LATEST TAR FOR LINUX]
+mkdir node
+tar xvf node-v*.tar.?z --strip-components=1 -C ./node
+
+# Remove cruft and create node directory in our home directory
+cd ~
+rm -rf node-v*
+mkdir node/etc
+
+# Link up npm to installed node packages
+echo 'prefix=/usr/local' &gt; node/etc/npmrc
+
+# Get your node executable alongside other binaries
+sudo mv node /opt/
+sudo chown -R root: /opt/node
+
+# Get your node executable into path
+sudo ln -s /opt/node/bin/node /usr/local/bin/node
+sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
+</code></pre>
+
+<p>If <code>node -v</code> runs, we&rsquo;re good!</p>
+
+<p>3. Use PM2 to keep the node process STAYIN' ALIVE</p>
+
+<p>  In the case that our Node app goes down for some reason or our server is
+  restarted, we want to make sure our application is restarted automatically!
+  Fortunately, a tool called pm2 (process manager) makes this easy:</p>
+
+<pre><code class="``">  sudo npm install pm2 -g
+
+  #Have PM2 start things up and keep it up:
+  pm2 start server.js
+
+  #Run PM2 on server start so you don't have to do it manually on restarts:
+  pm2 startup debian
+
+  #Note you'll need to put your Linux distro in here. It should output a command that you'll run with root permissions:
+</code></pre>
+
+<h2>Advantages/Disadvantages</h2>
+
+<p>If you&rsquo;re looking to have a handful of Node apps running for a long time without
+many (if any) changes, doing this setup once is probably a good solution.</p>
+
+<p>However, if you&rsquo;ll be making frequent changes, have a need to scale your apps
+quickly, or are introducing complicated dependencies, I highly recommend
+hosting your Node apps using Docker and a Docker &ldquo;Infrastructure as a Service&rdquo;
+(IaaS) provider like Docker Cloud. It may cost more initially and introduce
+further complexity, but the dividends are great.</p>
+
+<p>Stay frosty friends!</p>
+
+<h2>Resources</h2>
+
+<ul>
+<li>https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04</li>
+<li>http://www.sitepoint.com/creating-and-handling-forms-in-node-js/</li>
+</ul>
 
 
+  </div>
+  
+    <footer class="entry-meta entry-meta-footer">
+      
+      <div class="entry-meta-footer-bottom">
+        
+          <span class="icon-left entry-meta-icon icon-tag">
+            
+              <a class="nav-link-tag" href="/tag/linode" rel="tag">Linode</a>, 
+            
+              <a class="nav-link-tag" href="/tag/nodejs" rel="tag">NodeJS</a>, 
+            
+              <a class="nav-link-tag" href="/tag/programming" rel="tag">programming</a>
+            
+          </span>
+        
+      </div>
+      
+    </footer>
+  
+</article>
+<nav class="post-navigation" role="navigation">
+  <h1 class="visuallyhidden">Post navigation</h1>
+  
+    <div class="nav-previous">
+      <a class="nav-previous-link" href="http://reynoldsalec.github.io/2014/12/christmas-list/" rel="prev">A Bad Materialist's Christmas List</a>
+    </div>
+  
+  
+</nav>
         </div>
         <aside class="secondary vcard author" role="complementary">
           <img alt="Goofy picture of Alec eating a Pac Man" class="secondary-photo photo" src="/assets/img/alec-reynolds.jpg">

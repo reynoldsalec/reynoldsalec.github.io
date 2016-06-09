@@ -4,13 +4,110 @@
   <link type="application/atom+xml" rel="self" href="http://reynoldsalec.github.io/atom.xml"/>
   <link href="http://reynoldsalec.github.io/"/>
   <id>http://reynoldsalec.github.io/</id>
-  <updated>2014-12-03T21:04:01Z</updated>
+  <updated>2016-06-09T10:36:21Z</updated>
   <author>
     <name>Alec Reynolds</name>
     <email>hello@reynoldsalec.github.io</email>
   </author>
-  <rights type="text">Copyright © 2014 Alec Reynolds. All rights reserved.</rights>
+  <rights type="text">Copyright © 2016 Alec Reynolds. All rights reserved.</rights>
   
+  <entry>
+  <title type="text">NodeJS on Linode</title>
+  <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2016/03/nodejs-linode/" />
+  <id>http://reynoldsalec.github.io/2016/03/nodejs-linode</id>
+  <published>2016-03-06T00:00:00Z</published>
+  <updated>2016-03-06T00:00:00Z</updated>
+  <content type="html"><![CDATA[ <h2>Intro</h2>
+
+<p>Unite all the nodes!</p>
+
+<p>Linode provides inexpensive, reliable servers. If you want to &ldquo;set and forget&rdquo;
+a Node app (or multiple apps), Linode can be a good option. Although I&rsquo;ve since
+started using Docker Cloud for most of my microservice hosting needs, here&rsquo;s
+how I used to run Kalabox.io, the Kalabox API documentation, and our system
+dashboard on Linode:</p>
+
+<h2>Steps</h2>
+
+<p>1. Upload your Node app to your desired webroot on Linode</p>
+
+<pre><code>scp -r yourstuff user@IP:/path/to/webroot
+</code></pre>
+
+<p>Note that this assumes you either have your SSH key setup on your Linode server
+OR that you have your user&rsquo;s credentials handy.</p>
+
+<p>2. Install Node on linode</p>
+
+<pre><code>cd ~
+wget [LATEST TAR FOR LINUX]
+mkdir node
+tar xvf node-v*.tar.?z --strip-components=1 -C ./node
+
+# Remove cruft and create node directory in our home directory
+cd ~
+rm -rf node-v*
+mkdir node/etc
+
+# Link up npm to installed node packages
+echo 'prefix=/usr/local' &gt; node/etc/npmrc
+
+# Get your node executable alongside other binaries
+sudo mv node /opt/
+sudo chown -R root: /opt/node
+
+# Get your node executable into path
+sudo ln -s /opt/node/bin/node /usr/local/bin/node
+sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
+</code></pre>
+
+<p>If <code>node -v</code> runs, we&rsquo;re good!</p>
+
+<p>3. Use PM2 to keep the node process STAYIN' ALIVE</p>
+
+<p>  In the case that our Node app goes down for some reason or our server is
+  restarted, we want to make sure our application is restarted automatically!
+  Fortunately, a tool called pm2 (process manager) makes this easy:</p>
+
+<pre><code class="``">  sudo npm install pm2 -g
+
+  #Have PM2 start things up and keep it up:
+  pm2 start server.js
+
+  #Run PM2 on server start so you don't have to do it manually on restarts:
+  pm2 startup debian
+
+  #Note you'll need to put your Linux distro in here. It should output a command that you'll run with root permissions:
+</code></pre>
+
+<h2>Advantages/Disadvantages</h2>
+
+<p>If you&rsquo;re looking to have a handful of Node apps running for a long time without
+many (if any) changes, doing this setup once is probably a good solution.</p>
+
+<p>However, if you&rsquo;ll be making frequent changes, have a need to scale your apps
+quickly, or are introducing complicated dependencies, I highly recommend
+hosting your Node apps using Docker and a Docker &ldquo;Infrastructure as a Service&rdquo;
+(IaaS) provider like Docker Cloud. It may cost more initially and introduce
+further complexity, but the dividends are great.</p>
+
+<p>Stay frosty friends!</p>
+
+<h2>Resources</h2>
+
+<ul>
+<li>https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04</li>
+<li>http://www.sitepoint.com/creating-and-handling-forms-in-node-js/</li>
+</ul>
+
+ <br>
+<hr>
+<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2016/03/nodejs-linode/">NodeJS on Linode</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Living Better, Together</a></strong>.</p>
+<p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/ReynoldsAlec">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
+ ]]></content>
+</entry>
+
+
   <entry>
   <title type="text">A Bad Materialist&#39;s Christmas List</title>
   <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2014/12/christmas-list/" />
@@ -50,7 +147,7 @@
 
 <h2>My Significant Other</h2>
 
-<p>FYI, give me a heads up before picking up stuff in these categories; I&rsquo;ll remove it from the list so others don&rsquo;t get confused. And if you&rsquo;re <a href="https://twitter.com/sarahbranon">@sarahbranon</a>, issue a pull request to add more items :)</p>
+<p>If you&rsquo;re <a href="https://twitter.com/sarahbranon">@sarahbranon</a>, issue a pull request to add/remove items :)</p>
 
 <h3>Bike Stuff</h3>
 
@@ -58,7 +155,7 @@
 
 <ul>
 <li>Cool lights for bike wheels</li>
-<li>Bike Paniers</li>
+<li>Bike Pannier</li>
 </ul>
 
 
@@ -71,7 +168,7 @@
 <li>Fancy cocktail things (like essence of orange, bitters&hellip;you know, the things that come in little bottles)</li>
 <li>Copper mug</li>
 <li>Tea ball</li>
-<li>Fancy cooking food (other than olive oil/vineagar, Sarah&rsquo;s mom has that locked DOWN)</li>
+<li>Fancy cooking food (other than olive oil/vinegar, Sarah&rsquo;s mom has that locked DOWN)</li>
 </ul>
 
 
@@ -93,21 +190,6 @@
  <br>
 <hr>
 <p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/12/christmas-list/">A Bad Materialist's Christmas List</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Living Better, Together</a></strong>.</p>
-<p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/ReynoldsAlec">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
- ]]></content>
-</entry>
-
-
-  <entry>
-  <title type="text">Flash Devs</title>
-  <link rel="alternate" type="text/html" href="http://reynoldsalec.github.io/2014/11/2014-11-13-outsourcing-flash-boys/" />
-  <id>http://reynoldsalec.github.io/2014/11/2014-11-13-outsourcing-flash-boys</id>
-  <published>2014-11-13T13:00:00Z</published>
-  <updated>2014-11-13T13:00:00Z</updated>
-  <content type="html"><![CDATA[ 
- <br>
-<hr>
-<p>You’ve just read about <strong><a href="http://reynoldsalec.github.io/2014/11/2014-11-13-outsourcing-flash-boys/">Flash Devs</a></strong> on <strong><a href="http://reynoldsalec.github.io/">Living Better, Together</a></strong>.</p>
 <p>If you’d prefer to receive your updates in tweet form, please follow me on <strong><a href="https://twitter.com/ReynoldsAlec">Twitter</a></strong>, otherwise I hope you’re enjoying the feed!</p>
  ]]></content>
 </entry>

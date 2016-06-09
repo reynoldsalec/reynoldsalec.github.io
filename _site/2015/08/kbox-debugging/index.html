@@ -10,15 +10,15 @@
     <link href="//themes.googleusercontent.com" rel="dns-prefetch">
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     
-      <title>Posts Tagged “data visualization” &ndash; Living Better, Together</title>
-      <meta content="Posts Tagged “data visualization” &ndash; Living Better, Together" property="og:title">
-      <meta content="Posts Tagged “data visualization” &ndash; Living Better, Together" name="twitter:title">
+      <title>Kalabox Hands-on Debugging &ndash; Living Better, Together</title>
+      <meta content="Kalabox Hands-on Debugging" property="og:title">
+      <meta content="Kalabox Hands-on Debugging" name="twitter:title">
     
     <meta content="Living Better, Together" property="og:site_name">
     
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" property="og:description">
-      <meta content="Alec Reynolds is a civic entrepreneur from Oakland, CA" name="twitter:description">
+      <meta content="Some basic commands to help debug Kalabox and Boot2Docker issues on your Mac." name="description">
+      <meta content="Some basic commands to help debug Kalabox and Boot2Docker issues on your Mac." property="og:description">
+      <meta content="Some basic commands to help debug Kalabox and Boot2Docker issues on your Mac." name="twitter:description">
     
 
     <meta content="Alec Reynolds" name="author">
@@ -49,20 +49,31 @@
 
     <link rel="shortcut icon" href="/favicon.ico" >
 
-    <link href="http://reynoldsalec.github.io/tag/data-visualization/" rel="canonical">
+    <link href="http://reynoldsalec.github.io/2015/08/kbox-debugging/" rel="canonical">
     
       <meta content="article" property="og:type">
     
     <meta content="summary" name="twitter:card">
     
-      <meta content="http://reynoldsalec.github.io/tag/data-visualization/" property="og:url">
-      <meta content="http://reynoldsalec.github.io/tag/data-visualization/" name="twitter:url">
+      <meta content="http://reynoldsalec.github.io/2015/08/kbox-debugging/" property="og:url">
+      <meta content="http://reynoldsalec.github.io/2015/08/kbox-debugging/" name="twitter:url">
     
+    
+      <meta content="2015-08-19T01:00:00-07:00" property="article:published_time">
+      <meta content="http://reynoldsalec.github.io/about/" property="article:author">
     
     
       <meta property="og:image" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
       <meta name="twitter:image:src" content="http://reynoldsalec.github.io/assets/img/logo-high-resolution.png">
     
+    
+      
+      <meta property="article:tag" content="Kalabox">
+      
+      <meta property="article:tag" content="Docker">
+      
+      <meta property="article:tag" content="products">
+      
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600" rel="stylesheet" type="text/css">
     <link href="/assets/css/styles.css" rel="stylesheet" type="text/css">
@@ -95,37 +106,115 @@
         </header>
         <div class="primary" id="content" role="main">
 
-
-  
-  <div class="gray-box">
-    <p>Posts Tagged <strong>“data visualization”</strong></p>
-  </div>
-
-
-
-  <article class="post">
-    <header class="entry-header">
-      <h1 class="entry-title">
-        <a href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Data Journalism: Riots, Fires, and Spreadsheets</a>
-      </h1>
-      <div class="entry-meta entry-meta-header">
-        <span class="icon-left icon-entry-date entry-meta-icon">
-          <a class="entry-meta-link" href="/2014/10/data-journalism/" rel="bookmark" title="2014-10-08 15:55:00 -0700">
-            <time class="date updated" datetime="2014-10-08T15:55:00-07:00">October 08, 2014</time>
-          </a>
-        </span>
-      </div>
-    </header>
-    <div class="entry-content">
-      
-        <p>Why do tech advisors cringe when users prefer spreadsheets over our perfect data solutions?</p>
-
-          <a class="continue-reading" href="/2014/10/data-journalism/" rel="bookmark" title="Permalink to Data Journalism: Riots, Fires, and Spreadsheets">Continue Reading</a>
-        
+<article class="post hentry">
+  <header class="entry-header">
+    <h1 class="entry-title">Kalabox Hands-on Debugging</h1>
+    <div class="entry-meta entry-meta-header">
+      <span class="icon-left entry-meta-icon icon-entry-date">
+        <time class="date updated" datetime="2015-08-19T01:00:00-07:00">August 19, 2015</time>
+      </span>
     </div>
-  </article>
+  </header>
+  <div class="entry-content">
+    <h1>Kalabox Debugging</h1>
+
+<p>A few helpful commands while debugging and doing Kalabox development.</p>
+
+<ul>
+<li>SSH into the VM to do things</li>
+</ul>
 
 
+<pre><code>boot2docker --vm="Kalabox2" ssh
+</code></pre>
+
+<ul>
+<li>Add DOCKER_HOST variables to your .bash_profile</li>
+</ul>
+
+
+<pre><code>export DOCKER_CERT_PATH=
+export DOCKER_TLS_VERIFY=1
+export DOCKER_HOST=tcp://10.13.37.42:2376
+</code></pre>
+
+<p>With these environmental variables you won&rsquo;t need to SSH into the VM to run &ldquo;docker&rdquo; commands. Note that in some weird cases, the ip might be 10.13.37.43. You can check this by running &ldquo;kbox ip&rdquo;.</p>
+
+<ul>
+<li>Remove a rogue container manually</li>
+</ul>
+
+
+<pre><code>docker ps
+docker rm -f [container name]
+</code></pre>
+
+<ul>
+<li>See your files directory</li>
+</ul>
+
+
+<pre><code>docker ps
+docker inspect [container name]
+docker exec -i -t [container name] bash
+cd /data
+</code></pre>
+
+<ul>
+<li>Build an image from a dockerfile</li>
+</ul>
+
+
+<pre><code>docker build -t [user/repo:version] .
+</code></pre>
+
+<ul>
+<li>Keep a temporary container running</li>
+</ul>
+
+
+<pre><code>docker run -it --name [container-name] [image-name] /bin/bash
+</code></pre>
+
+<ul>
+<li>Update a docker image on DockerHub Manually</li>
+</ul>
+
+
+<pre><code>docker build -t [dockerhub-username/repo:version] .
+docker push [dockerhub-username/repo:version]
+</code></pre>
+
+  </div>
+  
+    <footer class="entry-meta entry-meta-footer">
+      
+      <div class="entry-meta-footer-bottom">
+        
+          <span class="icon-left entry-meta-icon icon-tag">
+            
+              <a class="nav-link-tag" href="/tag/kalabox" rel="tag">Kalabox</a>, 
+            
+              <a class="nav-link-tag" href="/tag/docker" rel="tag">Docker</a>, 
+            
+              <a class="nav-link-tag" href="/tag/products" rel="tag">products</a>
+            
+          </span>
+        
+      </div>
+      
+    </footer>
+  
+</article>
+<nav class="post-navigation" role="navigation">
+  <h1 class="visuallyhidden">Post navigation</h1>
+  
+    <div class="nav-previous">
+      <a class="nav-previous-link" href="http://reynoldsalec.github.io/2014/12/christmas-list/" rel="prev">A Bad Materialist's Christmas List</a>
+    </div>
+  
+  
+</nav>
         </div>
         <aside class="secondary vcard author" role="complementary">
           <img alt="Goofy picture of Alec eating a Pac Man" class="secondary-photo photo" src="/assets/img/alec-reynolds.jpg">
