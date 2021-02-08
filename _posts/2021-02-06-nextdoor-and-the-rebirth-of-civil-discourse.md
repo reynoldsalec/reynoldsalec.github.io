@@ -1,0 +1,74 @@
+---
+date: 2021-02-06 22:55:00
+layout: post
+title: "Nextdoor and the Rebirth of Civil Discourse"
+description: 'Democracy relies upon civil discourse, a contract between opponents who disagree with the other's viewpoint, but respect their person. We've watched the slow death of civil discourse in the United States. This is how we rebuild it.'
+tags: [technology, politics, community]
+suggested_tweet:
+  url: 'http://alecreynolds.com/2021/02/06/the-rebirth-of-civil-society/'
+  text: 'Thoughts on how we can rekindle the flame of civil discourse by @reynoldsalec'
+  hashtags: ['']
+  related: ['']
+---
+
+[Nextdoor](http://nextdoor.com/) was made to be boring. In any sane society, the worst thing you should see on Nextdoor is a flamewar between the HOA and your rogue neighbor who let their grass grow long. Granted, that flamewar would not be pretty; that HOA board could give Pol Pot a run for his money. But as far as I can tell, it was the stated goal of the Nextdoor creators to make a platform that is more about the turkeys someone saw running through their yard than debating whether the 2020 election was a fraud or claiming that COVID vaccines are a evil plot by multinational pharmaceutical companies.
+
+What is amazing about Nextdoor is that the vitriol isn't just aimed at a faceless crowd or someone with a Twitter account who could live a continent away. When you call someone a Nazi on Nextdoor, you're saying it to someone who might live...well...next door!
+
+Clannish behavior is nothing new in human history, and physical proximity has never prevented us from doing nasty things to each other. Ask the Hatfields and McCoys; sometimes the people you know most intimately are the ones who can generate the most sincere hate.
+
+### The Rules of Polite Society: Assume the Best, Don't Say the Worst
+
+By-and-large, the polite rules of American society have protected those who are in a fuzzy 2-4 degree connection sphere around us. We hate the people we know closely for extreme personal reasons: the bad things they've done to us, their racist comments at family gatherings, or just that obnoxious way they chew food. Likewise, we hate the people we don't know because it's easy: they're faceless avatars for the "other", the evil men who want to steal our women and burn our crops. But the guy you say "hi" to at the grocery store every week is largely exempt. You have a faint relationship and want to believe he's good because you know he lives nearby, and how could an evil person live in such a nice place?
+
+Much of this innocence is preserved by the niceties of polite society. We have an unspoken contract: don't give me a reason to hate you, and I won't give you a reason to hate me. We observe certain social rules in different settings. You don't talk religion or politics with the guy at the grocery store. You don't brag to the parents on your kid's soccer team about how much money you make. You don't bring up the infidelities of your neighbor at church. If you do these things, you're an asshole, and no one wants to be an asshole.
+
+### Polite Society Exiles Politics
+
+Unfortunately, while "polite society" maintains communities, it doesn't provide a forum for democracy to function. Democracy needs people to discuss issues amongst themselves and make decisions collectively. It operates best when that circle of discussion is broad. Left to our own devices, we stagnate. Our views become stunted by our limited experience and overtime can develop insidious prejudices that cloud our judgement.
+
+Taken to its extreme, polite society dictates that we never discuss politics. You don't do that at the dinner table, at church, at the grocery store, or with someone at the bus stop. The political arena becomes a foreign battlefield, something that is fought on the news and in elections. When it is found around you, it is crass. Even campaign yard signs can be a "bit too much" for polite society.
+
+### Civil Discourse Pierces the Bubble of Politeness
+
+Civil discourse creates an alternative arena. Its foundation is mutual respect: disagreement is inevitable, but when we disagree, we don't attack the person we disagree with, rather, we take aim at their arguments. We ask them questions to understand why the believe what they do. We present facts that may stand contrary. In this process we expect them to do the same with us. In civil discourse we are not enemies, we are simply two Americans who disagree with each other. That disagreement may not be resolved, but at the end of our discussion, we have reaffirmed that we are both human beings, who ultimately want what's best for our children, our country, and humanity.
+
+If "polite society" helps us not want to kill our network of loose connections, civil discourse is what allows us to talk about hard topics while maintaining composure. Civil discourse is hard. Passions are inevitably inflamed, and it's the ultimate test of one's composure to not allow animated discussion to slip into angry arguments. We've all been guilty of such transgressions, but the key is that these are *transgressions*: we should feel guilty for hate, guilty for making attacks against another person, ashamed for allowing fear to overwhelm curiosity in the pursuit of greater knowledge.
+
+### Social Media Discards Civil Discourse
+
+Unfortunately, modern discourse seems to increasingly succumb to uncivil standards. We expect unacceptable behavior online; "comment sections" are virtual war zones you don't dwell in after night, and Twitter is mostly a platform for denouncing your perceived enemies, not conducting true dialogue.
+
+Insulting a public figure on Twitter or trading direct barbs with another user is somewhat comprehensible. By design, Twitter is a global platform of strangers, more a stage than a forum. You place your thoughts upon that stage and you can expect more tomatoes thrown than flowers. The audience is alienated from one another, more connected by partisan ideals than shared humanity.
+
+It's more striking that a platform like Nextdoor has become an ideological battleground. Mocking your neighbors can stir resentment with real consequences. It's as if we forgot ourselves, assuming that what we do on the internet doesn't follow us home. Yet on Nextdoor, what you do on the internet is actually more widely distributed than a yard sign or a shouting match with your spouse. When you insult someone on Nextdoor, you're sharing your disrespect with your entire community.
+
+This quickly precipitates an exponential decline in the quality of conversation. When you see so many of your neighbors sink to this level, it quickly obliterates whatever expectations for civil and polite discourse you may have had. "Godwin's Law" is a tongue-in-cheek adage saying that, as an online discussion grows longer, the probability of someone comparing another user to the Nazis or Hitler approaches 100%. Sadly it's become a fairly deterministic rule for most Nextdoor conversations touching on the political.
+
+It would be interesting to decide whether a platform like Nextdoor should even allow civil discourse, or if the stricter dictums of polite society should reign. There can be fair arguments made for both, and indeed, perhaps the ultimate decision should be left to individual users to decide how they want others to perceive them. However, it should be alarming that so many users have discarded both ideals for something far more vicious.
+
+### Familiarity Saves Us All
+
+In the end, functioning social groups of any size rely upon familiarity to tie them together. Familiarity comes in many forms, some explicit, some implied. Because the guy across the street likes similar music, supports similar candidates, or takes good care of his house, we make assumptions that he's a lot like us and thus a pretty good guy. Tribalism, religion, political systems: all create this type of assumed, implicit familiarity from group identity.
+
+While implicit familiarity has immense power, it is only explicit familiarity that can breach tribal affiliation to establish rapport. A short conversation or a small personal interaction can transform someone from being a faceless member of a category ("the Trump flag guy down the road") into a neighbor ("Sean and Rachel who really like their Plymouth Rock show chickens").
+
+Polite society exists to preserve familiarity, and civil discourse relies upon familiarity as the foundation for mutual respect. It's easy to sink to ad hominem attacks when you don't know someone. It's harder when you've had a beer with them and met their wife and kids.
+
+We could lament how the structure of American society discourages this familiarity. Much has been written about how our lives are increasingly segregated along political and economic lines. However, our greatest fault is a collective failure to get to know one another, to look up from our cell phones and have a conversation with the people we share physical space with. If you think someone has a crazy perspective on the world, fear tells you to avoid them. Curiosity should tell you to talk to them, get to know them, try to decipher their worldview. Maybe they are as crazy as you thought, but isn't it more interesting to meet their mind in the open, rather than hide in your digital palace?
+
+### Creating Familiarity On Nextdoor
+
+While Nextdoor shows how far we've fallen in discarding polite and civil conversation, it also has great potential for scaling our ability to cross political divides and familiarize ourselves with "the other half". The physical proximity of the network preserves some twinge of guilt, and its stated community guidelines provide crude buffers for discussion. Perhaps most importantly, there are still many people who use Nextdoor for non-political uses. By showing you care about a community issue or just posting a nice picture of a beautiful day in your neighborhood, you become a bit more human to all your neighbors.
+
+Even when things do get political, Nextdoor is the best platform to try de-escalating unproductive conflict into civil discourse. Next time you see a conversation on Nextdoor that's headed towards an unproductive flamewar, do something brave: take a pause, and then ask a question. Ask it politely. Don't construct it to be leading or passive-aggressive. Ask an honest question that will help you better understand where this person is coming from. Here are a few questions that have helped me:
+
+1. It sounds like you really care about this issue. What first got you interested in it?
+2. Who do you know that's personally impacted by these issues/problems? How do they impact your personal life?
+3. What would you like to say to people who don't feel the same way you do about this issue?
+4. What do you want for your family? What is your biggest fear for your children?
+5. Do you think our community/country/world is headed in the right direction?
+
+While asking your question, no matter how rude the other person is being, state your respect for them and admiration for their desire to be politically active. If possible, thank them for sharing their opinion in a way that doesn't attack individuals or assume the worst of their opponents.
+
+Having civil conversations is hard, especially in a world that doesn't foster them. However, it is in these dialogues that we sow the seeds of our salvation.
