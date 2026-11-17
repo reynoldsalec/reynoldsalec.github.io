@@ -35,7 +35,14 @@ jobs:
       - run: npm run check && npm run build && npm test
       - run: npx playwright install --with-deps chromium
       - run: npm run test:browser
-      - run: npm audit --audit-level=high
+      - name: Audit (allow GHSA-fc5q-39xc-vjpf, see new-personal-blog#2)
+        run: |
+          npm audit --json > audit.json || true
+          jq -e '[.vulnerabilities[].via[] | objects
+                  | select(.severity=="high" or .severity=="critical") | .url]
+                 | unique
+                 | map(select(endswith("GHSA-fc5q-39xc-vjpf") | not))
+                 | length == 0' audit.json
       - uses: actions/upload-artifact@v4
         with:
           name: browser-evidence
